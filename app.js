@@ -22,6 +22,7 @@ async function callApi(query) {
 
   return returnData;
 }
+
 app.get("/", (req, res, next) => {
   full_response = {
     http_status: 200,
